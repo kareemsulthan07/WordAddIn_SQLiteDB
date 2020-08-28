@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="SQLiteTab"
+           label="SQLite">
+        <group id="SQLiteGroup"
+               label="IO">
+          <button id="viewButton"
+                  label="View"
+                  onAction="viewButton_onAction"/>
+
+          <button id="saveDataButton"
+                  label="Save"
+                  onAction="saveButton_onAction"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
